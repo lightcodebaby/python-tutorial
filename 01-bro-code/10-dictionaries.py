@@ -19,5 +19,5 @@ capitals.update({"Spain": "Madriz"})
 
 capitals.pop("China")  # Removes China
 
-for key, value in capitals.items:
+for key, value in capitals.items():
     print(key, value)

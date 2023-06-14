@@ -1,17 +1,17 @@
 try:
-	numerator = int(input("Enter a number to divide: "))
-	denominator = int(input("Enter a number to divide by: "))
-	result = numerator/denominator
+    numerator = int(input("Enter a number to divide: "))
+    denominator = int(input("Enter a number to divide by: "))
+    result = numerator / denominator
 except ZeroDivisionError as e:
-	print(e)
-	print("You can't divide by zero!")
+    print(e)
+    print("You can't divide by zero!")
 except ValueError as e:
-	print(e)
-	print("Enter only numbers please")
+    print(e)
+    print("Enter only numbers please")
 except Exception as e:
-	print(e)
-	print("Something went wrong")
+    print(e)
+    print("Something went wrong")
 else:
-	print(result)
+    print(result)
 finally:
-	print("This will always be executed")
+    print("This will always be executed")
