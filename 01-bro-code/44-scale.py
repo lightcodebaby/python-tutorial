@@ -2,13 +2,6 @@ from tkinter import *
 
 window = Tk()
 
-flame_image = PhotoImage(file="./cold.png")
-flame_label = Label(image=flame_image)
-flame_label.pack()
-
-cold_image = PhotoImage(file="./cold.png")
-
-
 scale = Scale(
     window,
     from_=100,
@@ -34,7 +27,8 @@ def submit():
 button = Button(
     window,
     text="submit",
-    command="submit",
+    command=submit,
 )
+button.pack()
 
 window.mainloop()
