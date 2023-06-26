@@ -14,7 +14,7 @@ scale = Scale(
     resolution=5,
     troughcolor="#69EAFF",
     fg="#FF1C00",
-    bg="#111111"
+    bg="#111111",
 )
 scale.set(((scale["from"] - scale["to"]) / 2) + scale["to"])
 scale.pack()
