@@ -6,7 +6,7 @@ while True:
     if food == "quit":
         break
     foods.append(food)
-    
+
 # or...
 
 foods = list()

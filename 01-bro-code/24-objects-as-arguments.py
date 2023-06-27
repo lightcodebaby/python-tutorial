@@ -1,15 +1,12 @@
 class Car:
-
     color = None
 
 
 class Motorcycle:
-
     color = None
 
 
 def change_color(car, color):
-
     car.color = color
 
 
@@ -32,4 +29,3 @@ print(car_1.color)
 print(car_2.color)
 print(car_3.color)
 print(bike_1.color)
-

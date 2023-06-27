@@ -28,6 +28,7 @@ label = Label(
 )
 label.pack()  # center
 
+
 # buttons
 def click():
     print("You clicked the button!")

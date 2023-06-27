@@ -1,5 +1,5 @@
-from multiprocessing import Process, cpu_count
 import time
+from multiprocessing import Process, cpu_count
 
 
 def counter(num):
@@ -9,7 +9,6 @@ def counter(num):
 
 
 def main():
-
     print(cpu_count())
 
     a = Process(target=counter, args=(250000000,))

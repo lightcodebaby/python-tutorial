@@ -49,6 +49,7 @@ def timer():
         count += 1
         print("Logged in for: " + str(count) + " seconds")
 
+
 timer_thread = threading.Thread(target=timer, daemon=True)
 timer_thread.start()
 

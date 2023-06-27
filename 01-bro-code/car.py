@@ -1,5 +1,4 @@
 class Car:
-
     wheels = 4  # class variable
 
     def __init__(self, make, model, year, color):  # instance variables

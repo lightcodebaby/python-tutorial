@@ -6,6 +6,7 @@ x = BooleanVar()
 
 python_logo = PhotoImage(file="./01-bro-code/python-logo.png")
 
+
 def display():
     if x.get():
         print("You agree")
@@ -28,7 +29,7 @@ check_button = Checkbutton(
     padx=25,
     pady=10,
     image=python_logo,
-    compound="left"
+    compound="left",
 )
 check_button.pack()
 

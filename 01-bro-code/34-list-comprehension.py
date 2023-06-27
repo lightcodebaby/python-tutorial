@@ -13,7 +13,9 @@ passed_students = list(filter(lambda x: x >= 60, students_grades))
 
 # or...
 
-passed_students = [student_grade for student_grade in students_grades if student_grade >= 60]
+passed_students = [
+    student_grade for student_grade in students_grades if student_grade >= 60
+]
 
 # or...
 
